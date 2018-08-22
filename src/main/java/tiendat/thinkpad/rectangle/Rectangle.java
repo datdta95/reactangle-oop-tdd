@@ -1,7 +1,7 @@
 package tiendat.thinkpad.rectangle;
 
 public class Rectangle {
-    double width, height;
+    private double width, height;
 
     public Rectangle() {
     }
@@ -19,4 +19,7 @@ public class Rectangle {
         return this.height ;
     }
 
+    public double getArea() {
+        return this.height * this.width;
+    }
 }
