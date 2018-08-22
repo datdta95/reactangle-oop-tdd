@@ -13,4 +13,12 @@ public class ReactangleTest {
         assertEquals(expectWidth, rectangle.getWidth());
         assertEquals(expectHeight,rectangle.getHeight());
     }
+
+    @Test
+    public void testThatGetAreaOfRectangle() {
+        Rectangle rectangle = new Rectangle(3, 5);
+        double expect = 15;
+        double actual = rectangle.getArea();
+        assertEquals(expect, actual);
+    }
 }
