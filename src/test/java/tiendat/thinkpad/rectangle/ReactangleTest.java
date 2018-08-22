@@ -21,4 +21,12 @@ public class ReactangleTest {
         double actual = rectangle.getArea();
         assertEquals(expect, actual);
     }
+
+    @Test
+    public void testThatGetPerimeterOfRectangle() {
+        Rectangle rectangle = new Rectangle(3, 5);
+        double expect = 16;
+        double actual = rectangle.getPerimeter();
+        assertEquals(expect, actual);
+    }
 }
