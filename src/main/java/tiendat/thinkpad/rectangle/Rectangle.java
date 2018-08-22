@@ -22,4 +22,8 @@ public class Rectangle {
     public double getArea() {
         return this.height * this.width;
     }
+
+    public double getPerimeter() {
+        return 2 * (this.height + this.width);
+    }
 }
