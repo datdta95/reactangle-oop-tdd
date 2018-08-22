@@ -29,4 +29,12 @@ public class ReactangleTest {
         double actual = rectangle.getPerimeter();
         assertEquals(expect, actual);
     }
+
+    @Test
+    public void testThatDiplayRectangle() {
+        Rectangle rectangle = new Rectangle(3, 5);
+        String expect = "Hình chữ nhật có chiều dài là 3 và chiều rộng là 5";
+        String actual = rectangle.display();
+        assertEquals(expect, actual);
+    }
 }
