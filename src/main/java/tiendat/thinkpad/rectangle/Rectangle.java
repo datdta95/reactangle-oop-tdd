@@ -11,12 +11,12 @@ public class Rectangle {
         this.height = height;
     }
 
-    public  double getWidth() {
-        return this.width ;
+    public double getWidth() {
+        return this.width;
     }
 
-    public  double getHeight() {
-        return this.height ;
+    public double getHeight() {
+        return this.height;
     }
 
     public double getArea() {
@@ -25,5 +25,9 @@ public class Rectangle {
 
     public double getPerimeter() {
         return 2 * (this.height + this.width);
+    }
+
+    public String display() {
+        return "Hình chữ nhật có chiều dài là " + (int) this.width + " và chiều rộng là " + (int) this.height;
     }
 }
